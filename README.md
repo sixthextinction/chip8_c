@@ -6,4 +6,9 @@ For all intents and purposes, however, it's a complete system. A "virtual comput
 
 This is an emulator for the CHIP-8, written in C (possibly using Mark Kilgard's windowing system independent openGL library, GLUT, for graphics/input/sound)
 
-Right now this project is nothing more than a debugger with a hardcoded ROM.
+#Progress
+---------
+
+###01-14-2016
+* Right now this project is nothing more than a debugger with a hardcoded ROM.
+* Possible major bug with graphics, draws garbage graphics.
