@@ -16,10 +16,12 @@ This is an emulator for the CHIP-8, written in C (using Mark Kilgard's windowing
 
 #Compilation
 ------------
-For Windows (Visual Studio), you'll need :
-* glut.h
-* glut32.dll
-* glut32.lib
-With proper linking in VS.
+For Windows (Visual Studio), you'll need Nate Robins' Win32 GLUT port, properly linked.
+* glut.h      in your Includes directory
+* glut32.dll  in your project .exe dir (or system32, but that's unnecessary)
+* glut32.lib  in your Libary directory
 
-For Linux, I guess you'll just need a glut implementation like freeglut3 (and freeglut3-dev)? I'm not very sure.
+
+For Linux, I guess you'll just need a GLUT implementation like freeglut3 (and freeglut3-dev)? I'm not very sure.
+Compile like : 
+* cc	chip8core.c 	-lglut 	-lGL 	-lGLU 	-lm -o 	c8
