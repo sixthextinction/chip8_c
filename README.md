@@ -4,11 +4,22 @@ The `CHIP-8` isn't an actual computer, but a language interpreter used on comput
 
 For all intents and purposes, however, it's a complete system. A "virtual computer" if you will, and like any other computer can be emulated, given opcodes.
 
-This is an emulator for the CHIP-8, written in C (possibly using Mark Kilgard's windowing system independent openGL library, GLUT, for graphics/input/sound)
+This is an emulator for the CHIP-8, written in C (using Mark Kilgard's windowing system independent openGL library, GLUT, for graphics/input/sound)
 
 #Progress
 ---------
 
 ###01-14-2016
 * Right now this project is nothing more than a debugger with a hardcoded ROM.
-* Possible major bug with graphics, draws garbage graphics.
+* Major bug with display array; draws garbage graphics.
+
+
+#Compilation
+------------
+For Windows (Visual Studio), you'll need :
+* glut.h
+* glut32.dll
+* glut32.lib
+With proper linking in VS.
+
+For Linux, I guess you'll just need a glut implementation like freeglut3 (and freeglut3-dev)? I'm not very sure.
