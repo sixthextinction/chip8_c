@@ -379,8 +379,6 @@ void cycle()
 				{
 					finalX = (xcoord + xcounter);
 					finalY = (ycoord + ycounter);
-					finalX %= 64;//wraparound
-					finalY %= 32;//wraparound
 					finalIndex = finalY * 64 + finalX;
 					//draw a pixel at finalindex, set vf = 1 if collision
 					if (chip8core.display[finalIndex] == 1) //collision detected
