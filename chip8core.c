@@ -375,7 +375,7 @@ void cycle()
 			for (xcounter = 0; xcounter < 8; xcounter++)	//pixels are 8 bits in width
 			{
 				/*grab each bit of pixelData, one at a time, left to right*/
-				if (pixelData &(0x80 >> xcounter) != 0)	//If this is hard to understand, bear in mind 0x80 = 1000 0000, and that solitary 1 shifts right by one each time
+				if (pixelData &(0x80 >> xcounter))	//If this is hard to understand, bear in mind 0x80 = 1000 0000, and that solitary 1 shifts right by one each time
 				{
 					finalX = (xcoord + xcounter);
 					finalY = (ycoord + ycounter);
