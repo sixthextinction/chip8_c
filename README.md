@@ -8,6 +8,10 @@ This is an emulator for the CHIP-8, written in C (using Mark Kilgard's windowing
 
 #Progress
 ---------
+###01-30-2016
+* Fixed display bug. Didn't test beyond demos, however.
+* Still no input/audio.
+
 ###01-14-2016
 * Implemented graphics. Major bug with display array; draws garbage.
 * Still no input/audio.
