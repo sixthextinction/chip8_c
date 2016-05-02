@@ -93,7 +93,7 @@ void loadFontSet()
 /* load ROM into chip8 memory */
 void loadProgram(char *filePath)
 {
-	FILE *fileStream = fopen(filePath, "r"); //open file from filepath in binary, read only mode
+	FILE *fileStream = fopen(filePath, "rb"); //open file from filepath in binary, read only mode
 	if (!fileStream)
 	{
 		//Very basic error handling for a failed open
