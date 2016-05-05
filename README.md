@@ -43,7 +43,7 @@ This is an emulator for the CHIP-8, written in C (using Mark Kilgard's windowing
 -------
 \# ROMs need to be in the same directory as the executable. Right now, the path is hardcoded. Comment/uncomment as necessary.
 
-\# `ESC` button quits the emulator. Closing the LWJGL window does the same.
+\# `ESC` button quits the emulator. Closing the OpenGL window does the same.
 
 \# The hexadecimal (0-F) keypad of the original CHIP-8 is mapped on a modern keyboard as follows. Note that keys 2-4-6-8 (original)/2-Q-E-S (mapped) are used for directional control (arrow keys) in most games.
 
