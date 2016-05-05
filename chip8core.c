@@ -487,9 +487,7 @@ void cycle()
 			printf("LD [I], V%d : Store V0 to V%d in mem[I] onwards\n", x, x);
 			for (i = 0; i <= x; i++)
 			{
-				//printf("___DEBUG. Storing V[%d] ( = %d) in memory[%d].\n", i, chip8core.V[i], chip8core.I + i);
 				chip8core.memory[chip8core.I + i] = chip8core.V[i];
-				//printf("__DEBUG.  memory[%d] now holds %d\n", chip8core.I + i, chip8core.memory[chip8core.I + i]);
 			}
 			//chip8core.I += (int)((opcode & 0x0F00) >> 8) + 1;
 			chip8core.pc += 2;
