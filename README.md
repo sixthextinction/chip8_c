@@ -4,8 +4,21 @@ The `CHIP-8` isn't an actual computer, but a language interpreter used on comput
 
 For all intents and purposes, however, it's a complete system. A "virtual computer" if you will, and like any other computer can be emulated, given opcodes.
 
-This is an emulator for the CHIP-8, written in C (using Mark Kilgard's windowing system independent openGL library, GLUT, for graphics/input/sound)
+This is an emulator for the CHIP-8, written in C (using Mark Kilgard's windowing system independent openGL library, GLUT, for graphics/input/sound). Screenshots below.
 
+###Brix
+
+![Brix](https://cloud.githubusercontent.com/assets/8657811/15047354/33d97df0-1302-11e6-8a38-742ac029495e.jpg)
+
+
+###Space Invaders
+
+![Space Invaders](https://cloud.githubusercontent.com/assets/8657811/15047355/33da60a8-1302-11e6-8e89-d89845110682.jpg)
+
+
+###Pong
+
+![Pong](https://cloud.githubusercontent.com/assets/8657811/15047356/33dab940-1302-11e6-8b60-4cee424fac31.jpg)
 
 #Progress
 ---------
